@@ -1689,10 +1689,20 @@ header {
 }
 
 .service-card1 {
+    position: relative;
+    left: 5%;
+    animation-name: slide1;
+    animation-duration: 1.5s;  
     img {
         width: 30px;
         margin-bottom: -4px;
     }
+}
+
+
+@keyframes slide1 {
+    from {left: 0%;}
+    to {left: 5%;}
 }
 
 
@@ -1712,11 +1722,21 @@ header {
 
 
 .service-card2 {
+    position: relative;
+    left: 25%;
+    animation-name: slide2;
+    animation-duration: 1.5s;  
     padding-top: 10px;
     img {
         width: 25px;
         margin-bottom: -6px;
     }
+}
+
+
+@keyframes slide2 {
+    from {left: 0%;}
+    to {left: 25%;}
 }
 
 
@@ -1736,12 +1756,23 @@ header {
 
 
 .service-card3 {
+    position: relative;
+    left: 50%;
+    animation-name: slide3;
+    animation-duration: 1.5s;  
+    padding-top: 10px;
     padding-top: 0px;
     img {
         width: 40px;
         margin-bottom: -6px;
     }
 }
+
+@keyframes slide3 {
+    from {left: 0%;}
+    to {left: 50%;}
+}
+
 
 
 .service-card3-textzone {
@@ -1892,6 +1923,17 @@ header {
 }
 
 } 
+
+
+@media (max-width: 370px)  {
+        .hight-banner-elt1 {
+h1 {
+    font-size: 1.2rem;
+}
+}
+
+}
+
 
 
 

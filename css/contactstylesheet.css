@@ -275,14 +275,14 @@ footer {
     padding: 100px 0 50px 0;
 
         h1{
-            font-size: 5rem;
+            font-size: 3.5rem;
             font-weight: 600;
             color: #fff;
             
         }
 
         p {
-            font-size: 40px;
+            font-size: 25px;
             color: #fff;
             width: 700px;
             justify-self: center;
@@ -336,6 +336,15 @@ footer {
 
 @media (max-width: 600px) {
 
+    .menu-burger {
+    visibility: visible;
+    cursor: pointer;
+    i {
+        font-size: 1.9rem;
+    }
+
+}
+
 
     
 .banner {
@@ -350,21 +359,19 @@ footer {
     align-content: center;
     background-color: rgba(0, 35, 54, 0.8);
     height: 450px;
-    padding: 100px 0 50px 0;
+    padding: 100px 50px;
 
         h1{
-            font-size: 5rem;
+            font-size: 3rem;
             font-weight: 600;
             color: #fff;
             
         }
 
         p {
-            font-size: 40px;
+            font-size: 20px;
             color: #fff;
-            width: 700px;
-            justify-self: center;
-            margin-top: 25px;
+            text-align: center;
         }
 }
 
@@ -389,12 +396,13 @@ footer {
         padding: 10px 0;
     }
     .numero-urgence img {
-        width: 36px;
+        width: 30px;
     }
     .numero-urgence  {
         a {
             text-decoration: none;
             font-size: 1.1rem;
+
         }
         
     }
@@ -424,7 +432,7 @@ footer {
         margin-bottom: 25px;
     }
 
-        .input-phone-number input,
+    .input-phone-number input,
     .input-mail input,
     .input-message input,
     #rdv {
@@ -436,9 +444,10 @@ footer {
     }
     .send-button {
         font-size: 1rem;
-        padding: 8px 0;
-        width: 100%;
-        margin: 15px 0 0 0;
+        text-align: center;
+        padding: 8px;
+        width: 100px;
+        margin: 15px;
     }
 
 
