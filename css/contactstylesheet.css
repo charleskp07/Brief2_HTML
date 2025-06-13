@@ -7,6 +7,7 @@
     scroll-behavior: smooth;
 }
 
+
 .header{
     display: flex;
     justify-content: space-around;
@@ -16,84 +17,22 @@
     margin: 0 30px;
     position: relative;
     top: 30px;
+    animation-name: slide;
+    animation-duration: 1.5s;  
+    animation-fill-mode: forwards;
 }
 
-.logo2 {
-        a {
-            img {
-            width: 150px;
-            }
-        }
+@keyframes slide {
+    from {top: -25px;}
+    to {top: 15px;}
 }
 
-
-.menu2 {
-    display: flex;
-    gap: 30px;
-        li {
-            list-style: none;
-            a {
-                text-decoration: none;
-                color: #000;
-                font-size: 1.2rem;
-            }
-
-            a:hover {
-                display: block;
-                background: #ededed;
-                padding: 7px 10px;
-                border-radius: 5px;
-                transition: 0.2s;
-            }
-        }
-}
-
-
-.button2 {
-    display: flex;
-    gap: 20px;
-    
-}
-
-.btn1 {
-    background: #0F9DE8;
-    padding: 7px 15px;
-    border-radius: 7px;
-    align-items: center;
-    text-decoration: none;
-    color: #fff;
-    font-size: 1.1rem;
-    font-weight: 600;
-}
-
-.btn1:hover {
-    background: #0f9ce8b6;
-    transition: 0.2s;
-}
-
-.btn2 {
-    background: #FF0000;
-    padding: 7px 15px;
-    border-radius: 7px;
-    align-items: center;
-    text-decoration: none;
-    color: #fff;
-    font-size: 1rem;
-    font-weight: 600;
-}
-
-
-.btn2:hover {
-    background: #f11212;
-    transition: 0.2s;
-}
 
 
 .banner {
     background: url(../images/banners/contact\ us\ banner\ bckg.jpg) no-repeat center center /cover;
     height: 450px;
     margin-top: -80px;
-    /* padding-top: 20px; */
 }
 
 
@@ -230,7 +169,8 @@
 
 footer {
     background: url(../images/equipes/Doctors/footer.jpg) no-repeat center center / cover;
-    height: 300px;
+    height: 100%;
+    width: 100%;
 }
 
 .footer-elt {
@@ -291,13 +231,14 @@ footer {
 }
 
 .numero-urgence {
+    text-decoration: none;
     display: flex;
     img {
         width: 50px;
     }
 
-    a {
-        text-decoration: none;
+    p {
+        /* text-decoration: none; */
         font-size: 1.5rem;
         font-weight: 600;
         color: #ff0000;
