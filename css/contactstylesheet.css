@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    max-width: 1500px;
     font-family: Ubuntu-regular;
     scroll-behavior: smooth;
 }
@@ -238,7 +237,6 @@ footer {
     }
 
     p {
-        /* text-decoration: none; */
         font-size: 1.5rem;
         font-weight: 600;
         color: #ff0000;
@@ -256,7 +254,6 @@ footer {
         padding: 20px 0;
     }
 }
-/*code coleur urgence: #ff0000*/
 
 @font-face {
     font-family: Ubuntu-regular;
