@@ -393,7 +393,8 @@ footer {
     }
     .urgence {
         width: 100%;
-        padding: 10px 0;
+        padding: 10px;
+        justify-content: center;
     }
     .numero-urgence img {
         width: 30px;
