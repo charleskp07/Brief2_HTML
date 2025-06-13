@@ -174,7 +174,7 @@ footer {
 
 .footer-elt {
     background-color: rgba(0, 35, 54, 0.9);
-    height: 300px;
+    height: 100%;
     
 }
 
@@ -236,7 +236,8 @@ footer {
         width: 50px;
     }
 
-    p {
+    a {
+        text-decoration: none;
         font-size: 1.5rem;
         font-weight: 600;
         color: #ff0000;
@@ -253,6 +254,194 @@ footer {
         text-align: center;
         padding: 20px 0;
     }
+}
+
+
+@media (max-width: 900px) {
+
+    
+.banner {
+    background: url(../images/banners/contact\ us\ banner\ bckg.jpg) no-repeat center center /cover;
+    height: 450px;
+    margin-top: -80px;
+}
+
+
+.banner-text {
+    text-align: center;
+    align-content: center;
+    background-color: rgba(0, 35, 54, 0.8);
+    height: 450px;
+    padding: 100px 0 50px 0;
+
+        h1{
+            font-size: 5rem;
+            font-weight: 600;
+            color: #fff;
+            
+        }
+
+        p {
+            font-size: 40px;
+            color: #fff;
+            width: 700px;
+            justify-self: center;
+            margin-top: 25px;
+        }
+}
+
+
+    .maps {
+        margin: 30px 10px;
+    }
+    .maps iframe {
+        height: 350px;
+        border-radius: 25px;
+    }
+
+    .footer-elt1 {
+        grid-template-columns: 1fr;
+        padding: 0 20px;
+    }
+    .urgence {
+        width: 90%;
+        margin: 30px auto;
+    }
+
+
+     .banner2 {
+        grid-template-columns: 1fr;
+        margin: 40px 10px;
+        gap: 30px;
+    }
+    .calling-doctor img {
+        width: 350px;
+    }
+    .send-button {
+        left: 0;
+        display: block;
+        margin: 20px auto 0 auto;
+        position: static;
+    }
+    .input-phone-number input,
+    .input-mail input,
+    .input-message input,
+    #rdv {
+        width: 100%;
+        min-width: 0;
+    }
+
+
+}
+
+@media (max-width: 600px) {
+
+
+    
+.banner {
+    background: url(../images/banners/contact\ us\ banner\ bckg.jpg) no-repeat center center /cover;
+    height: 450px;
+    margin-top: -80px;
+}
+
+
+.banner-text {
+    text-align: center;
+    align-content: center;
+    background-color: rgba(0, 35, 54, 0.8);
+    height: 450px;
+    padding: 100px 0 50px 0;
+
+        h1{
+            font-size: 5rem;
+            font-weight: 600;
+            color: #fff;
+            
+        }
+
+        p {
+            font-size: 40px;
+            color: #fff;
+            width: 700px;
+            justify-self: center;
+            margin-top: 25px;
+        }
+}
+
+
+
+    .maps {
+        margin: 15px 2vw;
+    }
+    .maps iframe {
+        height: 220px;
+        border-radius: 15px;
+    }
+
+    .logo-footer img {
+        width: 100px;
+    }
+    .reseaux a img {
+        width: 24px;
+    }
+    .urgence {
+        width: 100%;
+        padding: 10px 0;
+    }
+    .numero-urgence img {
+        width: 36px;
+    }
+    .numero-urgence  {
+        a {
+            text-decoration: none;
+            font-size: 1.1rem;
+        }
+        
+    }
+    .foot p {
+        font-size: 1rem;
+        padding: 10px 0;
+    }
+
+
+    .banner2 {
+        margin: 20px 2vw;
+        gap: 20px;
+    }
+    .calling-doctor img {
+        width: 90vw;
+        max-width: 300px;
+    }
+    .nom-prenom {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .nom-prenom input {
+        width: 100%;
+    }
+    .input-zone-title {
+        font-size: 1.3rem;
+        margin-bottom: 25px;
+    }
+
+        .input-phone-number input,
+    .input-mail input,
+    .input-message input,
+    #rdv {
+        width: 100%;
+        font-size: 13px;
+    }
+    .input-message input {
+        height: 100px;
+    }
+    .send-button {
+        font-size: 1rem;
+        padding: 8px 0;
+        width: 100%;
+        margin: 15px 0 0 0;
+    }
+
+
 }
 
 @font-face {
