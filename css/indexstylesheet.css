@@ -86,18 +86,15 @@ header{
     font-weight: 600;
 }
 
-
 .btn2:hover {
     background: #f11212;
     transition: 0.2s;
 }
 
-
 .hight-banner {
     background: linear-gradient(270deg, rgba(111.63, 148.18, 124, 0.56) 0%, rgba(255, 255, 255, 0) 0%, rgba(15, 157, 232, 0.78) 42%, rgba(15, 157, 232, 0.86) 53%, rgba(15, 157, 232, 0.87) 59%, rgba(15, 157, 232, 0.90) 66%, rgba(15, 157, 232, 0.92) 69%, rgba(15, 157, 232, 0.93) 74%, rgba(15, 157, 232, 0.94) 78%, rgba(15, 157, 232, 0.95) 83%, rgba(15, 157, 232, 0.97) 86%, rgba(15, 157, 232, 0.99) 93%, #0F9DE8 100%); 
     padding: 30px 30px 0 30px;
-    height: 608px;
-    
+    height: 608px;   
 }
 
 .hight-banner-elts {
@@ -112,17 +109,13 @@ header{
     animation-fill-mode: forwards;
 }
 
-
-
 .hight-banner-elt1 {
     h1 {
         font-size: 3.3rem;
     }
 }
 
-.hight-banner-elt2 {
-
-    
+.hight-banner-elt2 {   
     justify-items: center;
     img {
         width: 500px;
@@ -163,7 +156,6 @@ header{
 
     }
 }
-
  
 .dispo{
     display: flex;
@@ -288,17 +280,31 @@ header{
 .personnel-cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 0;
-    justify-items: center;
+    gap: 60px;
+    justify-self: center;
 }
 
 .personel1 {
     justify-items: center;
     background:  linear-gradient(180deg, rgba(0, 64.98, 21.66, 0) 0%, rgba(15, 157, 232, 0.60) 100%);
-    width: 400px;
+    width: 300px;
     border-radius: 40px;
     padding-bottom: 20px;
     cursor: pointer;
+}
+
+.personel1-textzone {
+    padding: 20px;
+    text-align: center;
+    
+    h5 {
+        font-size: 1.8rem;
+    }
+
+    p {
+        margin-top: 10px;
+        font-size: 1.3rem;
+    }
 }
 
 .personel1:hover {
@@ -324,27 +330,6 @@ header{
     }
 }
 
-.personel2:hover {
-    transform: scale(1.02);
-    transition: 0.2s;
-}
-
-.personel1-textzone {
-    padding: 20px;
-    text-align: center;
-    
-    h5 {
-        font-size: 1.8rem;
-    }
-
-    p {
-        margin-top: 10px;
-        font-size: 1.3rem;
-    }
-
-}
-
-
 .personel2-textzone {
     padding: 20px;
     text-align: center;
@@ -357,7 +342,11 @@ header{
         margin-top: 10px;
         font-size: 1.3rem;
     }
+}
 
+.personel2:hover {
+    transform: scale(1.02);
+    transition: 0.2s;
 }
 
 .personel3 {
@@ -391,7 +380,6 @@ header{
         margin-top: 10px;
         font-size: 1.3rem;
     }
-
 }
 
 
@@ -1787,7 +1775,8 @@ header {
 .personnel-cards {
     display: grid;
     grid-template-columns: 1fr;
-    justify-items: center;
+    justify-self: center;
+    gap: 30px;
 }
 
 .personel1 {
