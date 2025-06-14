@@ -336,15 +336,6 @@ footer {
 
 @media (max-width: 600px) {
 
-    .menu-burger {
-    visibility: visible;
-    cursor: pointer;
-    i {
-        font-size: 1.9rem;
-    }
-
-}
-
 
     
 .banner {
